@@ -1,0 +1,8 @@
+# Navigation.yml
+main:
+    - title: "eXplainable Artificial Intelligence"
+      url: /XAI/
+    - title: "Deep Learning"
+      url: /DL/
+    - title: "Machine Learning"
+      url: /ML/
