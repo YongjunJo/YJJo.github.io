@@ -7,6 +7,7 @@ tags:
   - ML
   - MachineLearning
 use_math: true
+permalink: '/XAI'
 ---
 
 ### Locality
