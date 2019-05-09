@@ -11,7 +11,7 @@ docs:
     - title: eXplaninable AI
       childeren:
         - title:"LIME"
-          url: /docs/XAI/
+          url: /XAI/
   
 # sidebar
 sidebar:
