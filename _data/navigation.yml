@@ -6,3 +6,13 @@ main:
       url: /DL/
     - title: "Machine Learning"
       url: /ML/
+
+docs:
+    - title: eXplaninable AI
+      childeren:
+        - title:"LIME"
+          url: /docs/XAI/
+  
+# sidebar
+sidebar:
+    nav: "docs"
