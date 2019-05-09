@@ -7,7 +7,7 @@ tags:
   - ML
   - MachineLearning
 use_math: true
-permalink: /XAI/
+permalink: /XAI/lime
 ---
 
 ### Locality
@@ -24,7 +24,7 @@ $f: \mathbb{R}^{d}\rightarrow\mathbb{R}$, 즉 $f$는 학습한 모형으로 정�
 explanation $g$를 찾기 위한 최적화 문제를 정의할 수 있다. 
 
 $$
-\xi(x)=\argmin_{g\in G}\mathcal{L}(f,g,\pi_{x})+\Omega(g)
+\xi(x)=\underset{g\in G}{\operatorname{argmin}}\mathcal{L}(f,g,\pi_{x})+\Omega(g)
 $$
 
 를 통하여 해석성(Interpretability)와 지역 신뢰성(local fidelity)를 모두 충족시키는 explanation $g$를 얻을 수 있으며, 얻어진 $g$를 
