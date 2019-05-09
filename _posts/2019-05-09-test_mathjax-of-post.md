@@ -8,7 +8,7 @@ tags:
 use_math: true
 ---
 
-Normal: \n
+Normal: \n\n\\
 $$
 f(x;\mu,\sigma)=\frac{1}{\sqrt{2\pi\sigma^{2}}}e^{-\frac{(x-\mu)^{2}}{2\sigma^{2}}}
 $$
