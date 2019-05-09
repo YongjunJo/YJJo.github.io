@@ -6,4 +6,9 @@ main:
       url: /DL/
     - title: "Machine Learning"
       url: /ML/
-
+      
+docs:
+    - title: eXplainable AI
+      children:
+        - title: "LIME"
+          url: /XAI/lime
