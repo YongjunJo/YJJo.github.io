@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Zoom"
 title_separator          : "-"
-name                     : "Ayya"
-description              : "An amazing website."
-url                      : "https://yongjunjo.github.io/YJJo.github.io"
+name                     : "YJJo"
+description              : #"An amazing website."
+url                      : "https://blacktshirts.github.io/"
 baseurl                  : ""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -106,11 +106,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "BlackTshirts"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  bio              : #"Statistics"
+  location         : "Seoul, Korea"
+  email            : "jyj092501@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
