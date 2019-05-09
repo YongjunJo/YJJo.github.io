@@ -277,6 +277,18 @@ compress_html:
   ignore:
     envs: development
 
+# collections 
+collections:
+  XAI:
+    output: true
+    permalink: /:collection/:path/
+  DL:
+    output: true
+    permalink: /:collection/:path/
+  ML:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Defaults
 defaults:
@@ -289,6 +301,39 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
+      share: true
+      related: true
+  # _XAI
+  - scope:
+      path: ""
+      type: XAI
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _DL
+  - scope:
+      path: ""
+      type: DL
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _ML
+  - scope:
+      path: ""
+      type: ML
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
       share: true
       related: true
       
