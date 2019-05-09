@@ -7,12 +7,3 @@ main:
     - title: "Machine Learning"
       url: /ML/
 
-docs:
-    - title: eXplaninable AI
-      childeren:
-        - title:"LIME"
-          url: /XAI/
-  
-# sidebar
-sidebar:
-    nav: "docs"
