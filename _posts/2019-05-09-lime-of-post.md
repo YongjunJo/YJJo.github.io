@@ -1,4 +1,8 @@
-
+---
+title: "XAI"
+permalink: /XAI/lime
+use_math: true
+---
 
 ## Introduction
 의사결정을 위해 다양한 분야에서 머신러닝 기법이 활용되기 시작했습니다.  하지만 머신러닝 모형의 대부분은 블랙박스(black box)모형이기에 제한적입니다.
