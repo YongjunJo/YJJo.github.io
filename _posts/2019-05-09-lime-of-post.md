@@ -1,5 +1,9 @@
 ---
 title: "XAI"
+tags:
+  - LIME
+  - XAI
+  - eXplainable AI
 permalink: /XAI/lime
 use_math: true
 ---
