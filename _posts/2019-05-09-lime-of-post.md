@@ -5,6 +5,8 @@ tags:
   - XAI
   - eXplainable AI
 permalink: /XAI/lime
+sidebar:
+  nav: "docs"
 use_math: true
 ---
 
