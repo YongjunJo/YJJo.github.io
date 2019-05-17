@@ -21,11 +21,21 @@ use_math: true
 * **SP-LIME**: 모형의 신뢰도를 확인하기 위해, 결과를 대표할 수 있는 데이터 몇 가지를 선택해주는 알고리즘입니다.
 
 ---
+# Local Interpretable Model-agnostic Explanation (LIME)
 
+## Interpretable Data Representations
+LIME을 설명하기 앞서 특성(feature)와 Interpretable data representations으로 구분짓겠습니다. Blackbox 모형을 해석하기 위해서는 사람이 해석할 수 있는 데이터 형태로 표현되어야 될 것 입니다. 즉 실제로 모형에 투입되는 특성(feature)와 별개로 인간이 해석할 수 있는 데이터 형태로 나타내는 것을 Interpretable Data Representations이라고 부릅니다.
+
+**Interpretable Data Representation 예시**
+1. 텍스트 데이터: 단어의 유무를 나타내는 binary vector. (모형에는 word embedding 결과 등이 feature로 이용될 수 있다.) 
+2. 이미지 데이터: 이미지상 비슷한 부분(super-pixel, segmentation)의 유무를 나타내는 binary vector.
+3. 테이블 데이터: 연속형의 경우 원데이터 상동, 범주형의 경우 각 변수의 수준별 유무를 나타내는 binary vector.
+
+앞으로 $d$차원 데이터의 원데이터를 $x\in\mathbb{R}^{d}$로 나타내고, $x$에 대한 interpretable representation을 $x'\in\{0, 1\}^{d'}$로 나타내겠습니다.
 ## Locality  
 모형 전부를 설명하진 못하지만, 각 instance의 근방(neighborhood)에 있는 데이터를 설명할 수 있는 간단한 모형을 찾는 것이 목적임.  
   
- ---
+---
   
 ## Fidelity-interpretability trade-off  
 Ribeiro et al.의 논문에서는 explanation을 $g:X'\rightarrow \mathbb{R}, g\in G$인 모형으로 정의한다.  
