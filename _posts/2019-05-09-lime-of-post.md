@@ -7,7 +7,7 @@ tags:
 permalink: /XAI/lime
 sidebar:
   nav: "docs"
-use_math: true
+use_math: true 
 ---
 
 ## Introduction
@@ -31,7 +31,7 @@ LIME을 설명하기 앞서 특성(feature)와 Interpretable data representation
 2. 이미지 데이터: 이미지상 비슷한 부분(super-pixel, segmentation)의 유무를 나타내는 binary vector.
 3. 테이블 데이터: 연속형의 경우 원데이터 상동, 범주형의 경우 각 변수의 수준별 유무를 나타내는 binary vector.
 
-앞으로 $d$차원 데이터의 원데이터를 $x\in\mathbb{R}^{d}$로 나타내고, $x$에 대한 interpretable representation을 $x'\in\{0, 1\}^{d'}$로 나타내겠습니다.
+앞으로 $d$차원 데이터의 원데이터를 $x\in\mathbb{R}^{d}$로 나타내고, $x$에 대한 interpretable representation을 $x'\in\\{0, 1\\}^{d'}$로 나타내겠습니다.
 ## Locality  
 모형 전부를 설명하진 못하지만, 각 instance의 근방(neighborhood)에 있는 데이터를 설명할 수 있는 간단한 모형을 찾는 것이 목적임.  
   
