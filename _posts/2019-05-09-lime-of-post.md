@@ -17,6 +17,11 @@ use_math: true
 
 !['FIGURE 1']("/assets/images/LIME_fig1.PNG"){: width="500" height="100"}
 
+<figure class="half">
+    <a href="/assets/images/LIME_fig1.PNG"><img src="/assets/images/LIME_fig1.PNG"></a>
+    <figcaption> </figcaption>
+</figure>
+
 논문에서는 두 가지 신뢰도 문제를 해결하기 위하여 두 방법을 제안합니다.
 
 * **LIME**: 예측결과를 설명해주는 알고리즘으로 지역적으로 해석가능한 모형을 근사시켜줍니다. 
