@@ -54,7 +54,9 @@ Interpretability와 Local fidelity 모두를 반영할 수 있는 explanation을
 * $\pi_x(z)$ 유사도 측도 (proximity measure)를 정의합니다.  이는 **설명하고자하는 데이터 $x$와 다른 데이터 $z$간**의 유사도 측도입니다.
 
 Interpretability와 Local fidelity를 모두 충족시키는 Explanation $g$를 찾기 위한 최적화 문제는   
+
 $$  
 \xi(x)=\underset{g\in G}{\operatorname{argmin}}\mathcal{L}(f,g,\pi_{x})+\Omega(g)  
 $$ 
+
 로 정의됩니다. 여기에서 $G$는 explanation families, $\mathcal{L}$은 fidelity functions, $\Omega$는 complexity measures이다. $\mathcal{L}$은 이어서 자세히 살펴 보겠습니다.
